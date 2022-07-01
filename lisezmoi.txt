@@ -1,0 +1,33 @@
+The main program is written in fortran 90. Clean executables and .o files using
+
+> make propre
+
+Build an executable <program> using
+
+> make program
+
+***********************************LIBRARY
+
+The subdirectory "libperso" contains a library for basic operations
+(such as integration or interpolation routines). It should be built by the command
+
+> make libperso
+
+(executed in the libperso subdirectory)
+
+***********************************DIRECTORY progcharg
+This repository contains the program used in the numerical calculation of
+
+[1] T. Repplinger, S. Klimin, M. Gélédan, J. Tempere and H. Kurkjian, Dispersion of plasmons in three-dimensional superconductors,(arXiv:2201.11421)
+
+Other useful references are
+
+[2] Scientific Reports 10, 11591
+[3] Comptes Rendus. Physique, 21(3):253–310, 2020
+
+List of executables:
+
+> spectreBCS
+> carte
+> coupe
+> minplasm
